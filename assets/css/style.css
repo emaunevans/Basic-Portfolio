@@ -1,0 +1,36 @@
+.header {
+    text-align: center; 
+    float: none;
+    margin:0 auto; 
+    background-color: #F09E55;
+    height: 4em; 
+} 
+.img { 
+    width: 100%;
+    height:auto; 
+} 
+
+form {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: blue
+} 
+p {
+    color: rgb(94, 93, 93)
+} 
+section {
+    margin-bottom: 12px;
+    width: 59%; 
+    margin-right: 12px; 
+    padding: 15px 30px; 
+    background-color: white;
+} 
+.links {
+    padding: 0 5px; 
+    font-size: 40px; 
+} 
+aside {
+    float: right; 
+    margin-left: 12px; 
+    border: 1px solid #dddddd; 
+    background-color: white;
+}
