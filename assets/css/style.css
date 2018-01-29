@@ -13,7 +13,11 @@ html, body {
     width: 100%;
     height:auto; 
 } 
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 form {
     font-family: Arial, Helvetica, sans-serif; 
     color: blue
@@ -21,6 +25,10 @@ form {
 p {
     color: rgb(94, 93, 93)
 } 
+i {
+    font-size: 40px;
+    padding: 0 5px;
+}
 section {
     margin-bottom: 12px;
     width: 59%; 
@@ -49,4 +57,97 @@ img {
     display: block;
     float: left;
     margin-bottom: 10px;
+} 
+#sidebar_border_bottom {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: #dddddd solid 2px;
+} 
+aside h2 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: rgb(3, 92, 62);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+} 
+nav_selection {
+    float: right;
+    margin-top: 1.5em;
+}
+nav {
+    color: #dddddd;
+    display: inline;
+    padding: 25px 0;
+} 
+.portimg1 {
+    background-image: url(../images/pho1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+.portimg2 {
+    background-image: url(../images/pho2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+
+
+
+.portimg3 {
+    background-image: url(../images/pho3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+    background-size: cover;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+#portimg1 a {
+    background-color:rgb(3, 92, 62);;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+    padding: 10px 111px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-decoration: none;
+}
+#portimg2 a {
+    background-color: rgb(3, 92, 62);;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+    padding: 10px 110px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-decoration: none;
+}
+#portimg3 a {
+    background-color: rgb(3, 92, 62);
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+    padding: 10px 66px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-decoration: none;
 }
